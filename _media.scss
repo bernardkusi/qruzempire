@@ -23,6 +23,17 @@
             flex-direction: column;
             gap: 1.5rem;
 
+            &:last-of-type{
+                flex-direction: row;
+                gap: 1rem;
+                align-self: center;
+
+                i{
+                    font-size: 1.2rem;
+                }
+            }
+            
+
             i{
                 font-size: 1.5rem;
             }
@@ -106,13 +117,14 @@
       
           .details{
               bottom: 1rem;
+              right: 1rem;
       
               .location,.time{
-                  font-size: .8rem;
+                  font-size: .75rem;
               }
       
               p:last-child{
-                  font-size: .85rem;
+                  font-size: .8rem;
               }
           }
         }

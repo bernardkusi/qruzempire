@@ -363,6 +363,19 @@ footer > div p {
             flex-direction: column;
     gap: 1.5rem;
   }
+  nav ul:last-of-type {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 1rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  nav ul:last-of-type i {
+    font-size: 1.2rem;
+  }
   nav ul i {
     font-size: 1.5rem;
   }
@@ -439,12 +452,13 @@ footer > div p {
   }
   .swiper .swiper-slide .details {
     bottom: 1rem;
+    right: 1rem;
   }
   .swiper .swiper-slide .details .location, .swiper .swiper-slide .details .time {
-    font-size: .8rem;
+    font-size: .75rem;
   }
   .swiper .swiper-slide .details p:last-child {
-    font-size: .85rem;
+    font-size: .8rem;
   }
   .swiper .swiper-button-prev,
   .swiper .swiper-button-next {

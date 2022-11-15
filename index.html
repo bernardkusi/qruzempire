@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b806e80b78.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>QruzEmpire</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">QruzEmpire</a>
+      <ul>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/events.html">Events</a>
+      </ul>
+      <ul>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </ul>
+      <div class="bars">
+        <div class="bar"></div>
+      </div>
+    </nav>
+
+    <main>
+      <div id="hero">
+        <div class="intro">
+          <h1>QruzEmpire</h1>
+          <p>Your happiness, our priority</p>
+          <a href="#" class="click">Call Us Now</a>
+        </div>
+        <div class="image">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="./party.jpg" alt="slideimage" />
+                <h1 class="eventname">Lipstick party</h1>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta voluptatum inventore recusandae architecto numquam
+                  provident.
+                </p>
+                <div class="details">
+                  <p class="location">Accra Mall</p>
+                  <p class="time">5:00pm - TMC</p>
+                  <p>Grab Your Tickets Now</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./party.jpg" alt="slideimage" />
+                <h1 class="eventname">Lipstick party</h1>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta voluptatum inventore recusandae architecto numquam
+                  provident.
+                </p>
+                <div class="details">
+                  <p class="location">Accra Mall</p>
+                  <p class="time">5:00pm - TMC</p>
+                  <p>Grab Your Tickets Now</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./party.jpg" alt="slideimage" />
+                <h1 class="eventname">Lipstick party</h1>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta voluptatum inventore recusandae architecto numquam
+                  provident.
+                </p>
+                <div class="details">
+                  <p class="location">Accra Mall</p>
+                  <p class="time">5:00pm - TMC</p>
+                  <p>Grab Your Tickets Now</p>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+          repudiandae laudantium rerum reprehenderit quos nesciunt nihil, soluta
+          obcaecati officiis molestiae perferendis culpa nostrum.
+        </p>
+
+        <ul>
+          <a href="/">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/services.html">Services</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/events.html">Events</a>
+        </ul>
+
+        <ul>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <!-- <a href="#">Facebook</a> -->
+        </ul>
+
+        <p class="copy">
+          Website Developed By <a href="#">Bernard Dwumfour</a>&copy;2022
+        </p>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js";
+    </script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        autoplay:true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //   el: ".swiper-scrollbar",
+        // },
+      });
+    </script>
+  </body>
+</html>

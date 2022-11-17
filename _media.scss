@@ -93,6 +93,12 @@
         }
     }
 
+    .event{
+      .image{
+          height: 340px !important;
+      }
+    }
+
     footer{
         div{
             flex-direction: column;
@@ -122,6 +128,13 @@
             color: #fff;
             font-size: .85rem;
           }
+      }
+
+      .event{
+          padding: .5rem .75rem;
+        .image{
+            height: 200px !important;
+        }
       }
 
     .swiper {

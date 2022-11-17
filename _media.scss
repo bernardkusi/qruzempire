@@ -113,6 +113,17 @@
 
 @media (max-width:550px) {
 
+    .service{  
+        .servicename{
+          font-size: .9rem;
+        }
+
+        .servicedetails{
+            color: #fff;
+            font-size: .85rem;
+          }
+      }
+
     .swiper {
       
         .swiper-slide{

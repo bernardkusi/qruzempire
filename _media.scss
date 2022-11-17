@@ -53,6 +53,15 @@
         }
     }
 
+    .page{
+        padding: 3rem 1rem 4rem !important;
+        font-size: 1.3rem;
+
+        h1{
+            font-size: 1.6rem !important;            
+        }
+    }
+
     #hero{
         min-height: calc(100vh - 75px);
         padding: 6rem 1rem;

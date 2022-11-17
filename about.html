@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b806e80b78.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>QruzEmpire</title>
   </head>
@@ -18,42 +28,102 @@
         <a href="/events.html">Events</a>
       </ul>
       <ul>
-        <a href="#">#</a>
-        <a href="#">#</a>
-        <a href="#">#</a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
       </ul>
+      <div class="bars">
+        <div class="bar"></div>
+      </div>
     </nav>
 
     <main>
-     <div class="page">
+      <div class="page">
         <h1>About QruzEmpire</h1>
-     </div>
+       <h5>What we do</h5> 
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          voluptatem quam provident officiis cum blanditiis beatae repudiandae
+          quia! Doloribus nostrum atque excepturi ipsa saepe deleniti cumque
+          aliquid libero non aspernatur quam, hic autem a mollitia repudiandae,
+          dolorem, ipsam veniam quasi. Dolor cupiditate, in obcaecati quod optio
+          ullam voluptatem facere omnis, fuga illum sequi autem nisi.
+       <h5>What we do</h5> </p>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          voluptatem quam provident officiis cum blanditiis beatae repudiandae
+          quia! Doloribus nostrum atque excepturi ipsa saepe deleniti cumque
+          aliquid libero non aspernatur quam, hic autem a mollitia repudiandae,
+          dolorem, ipsam veniam quasi. Dolor cupiditate, in obcaecati quod optio
+          ullam voluptatem facere omnis, fuga illum sequi autem nisi.
+       <h5>What we do</h5> </p>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          voluptatem quam provident officiis cum blanditiis beatae repudiandae
+          quia! Doloribus nostrum atque excepturi ipsa saepe deleniti cumque
+          aliquid libero non aspernatur quam, hic autem a mollitia repudiandae,
+          dolorem, ipsam veniam quasi. Dolor cupiditate, in obcaecati quod optio
+          ullam voluptatem facere omnis, fuga illum sequi autem nisi.
+        </p>
+      </div>
     </main>
     <footer>
-     <div>
+      <div>
         <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-            repudiandae laudantium rerum reprehenderit quos nesciunt nihil, soluta
-            obcaecati officiis molestiae perferendis culpa nostrum.
-          </p>
-    
-          <ul>
-            <a href="/">Home</a>
-            <a href="/about.html">About</a>
-            <a href="/services.html">Services</a>
-            <a href="/contact.html">Contact</a>
-            <a href="/events.html">Events</a>
-          </ul>
-    
-          <ul>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-            <!-- <a href="#">Facebook</a> -->
-          </ul>
-    
-          <p class="copy">Website Developed By <a href="#">Bernard Dwumfour</a>&copy;2022</p>
-     </div>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+          repudiandae laudantium rerum reprehenderit quos nesciunt nihil, soluta
+          obcaecati officiis molestiae perferendis culpa nostrum.
+        </p>
+
+        <ul>
+          <a href="/">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/services.html">Services</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/events.html">Events</a>
+        </ul>
+
+        <ul>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <!-- <a href="#">Facebook</a> -->
+        </ul>
+
+        <p class="copy">
+          Website Developed By <a href="#">Bernard Dwumfour</a>&copy;2022
+        </p>
+      </div>
     </footer>
+  
+    <script src="./index.js"></script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js";
+    </script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        autoplay:true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //   el: ".swiper-scrollbar",
+        // },
+      });
+    </script>
   </body>
 </html>
+

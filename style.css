@@ -188,6 +188,41 @@ main .page {
 main .page h1 {
   text-align: center;
   color: orange;
+  font-size: 2.3rem;
+  margin-bottom: 3rem;
+}
+
+main .page .text {
+  font-size: .95rem;
+  color: #fff;
+}
+
+main .page h5 {
+  margin-top: 2rem;
+  color: orange;
+  -webkit-text-decoration: 2px solid underline orange;
+          text-decoration: 2px solid underline orange;
+  padding: .7rem 0;
+}
+
+main .page .service {
+  margin-top: 1.5rem;
+}
+
+main .page .service .image {
+  width: 100%;
+  max-width: 550px;
+  height: calc(190px + 10vh);
+  background: lightgrey;
+  margin-top: 2.5rem;
+  -webkit-box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+main .page .service .servicename {
+  color: orange;
+  font-weight: 600;
+  padding: .5rem 0;
 }
 
 .click {
@@ -388,6 +423,13 @@ footer > div p {
   }
   nav .bars {
     display: block;
+  }
+  .page {
+    padding: 3rem 1rem 4rem !important;
+    font-size: 1.3rem;
+  }
+  .page h1 {
+    font-size: 1.6rem !important;
   }
   #hero {
     min-height: calc(100vh - 75px);
